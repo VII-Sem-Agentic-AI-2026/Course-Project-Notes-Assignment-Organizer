@@ -1,0 +1,38 @@
+﻿# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Databases and runtime files
+*.sqlite
+*.sqlite3
+*.db
+*.log
+*.out
+
+# Uploaded user files
+Course-Project/Source-Code/uploads/*
+!Course-Project/Source-Code/uploads/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
