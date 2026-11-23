@@ -1,25 +1,17 @@
-# ORIGINAL PROBLEM STATEMENT
+PROBLEM STATEMENT
+Project Title: Agentic AI-Based Course Project, Notes and Assignment Organizer
+Course: Agentic AI
+Team No: 4
+Name	                    USN
+Aparna Shegade	       01fe23bci105
+Umme Aiman Mudenur	   01fe23bci376
+Kalpita R	             01fe23bci104
+Shivani M	             01fe23bci067
 
-## AGENTIC AI-BASED COURSE PROJECT, NOTES AND ASSIGNMENT ORGANIZER
+Division: B
 
-**Submitted by:**
 
-- Name: [Student Name]
-- USN: [University Seat Number]
-- Division: [Division]
-- Department: [Department Name]
-
-**Institution:** [College/University Name]
-
-**Course:** [Course Name]
-
-**Faculty Guide:** [Faculty Name]
-
-**Academic Year:** 2026–2027
-
----
-
-## 1. INTRODUCTION
+1. INTRODUCTION
 
 Educational institutions generate and manage a large amount of academic information throughout a semester. This includes course notes, learning resources, assignments, student submissions, grading records, feedback, deadlines, and academic progress information.
 
@@ -31,7 +23,7 @@ With the advancement of Artificial Intelligence, agentic AI systems can assist i
 
 The proposed project, **Agentic AI-Based Course Project, Notes and Assignment Organizer**, aims to combine agentic AI capabilities with a centralized academic management platform.
 
-## 2. PROBLEM STATEMENT
+2. PROBLEM STATEMENT
 
 The problem is to design and develop an intelligent, agentic AI-based academic management system that simplifies and coordinates the management of course materials, assignments, student submissions, grading workflows, and academic progress.
 
@@ -41,7 +33,7 @@ It should provide a role-based web portal for Students, Faculty members, and the
 
 The system should also incorporate governance mechanisms and human approval checkpoints to ensure that important academic decisions, particularly grading and publishing results, remain under the control of authorized faculty members.
 
-## 3. OBJECTIVES
+3. OBJECTIVES
 
 The major objectives of the project are:
 
@@ -61,11 +53,10 @@ The major objectives of the project are:
 14. To provide academic progress monitoring and department-level summaries.
 15. To maintain security, role-based access restrictions, and auditability.
 
-## 4. PROPOSED SYSTEM
+4. PROPOSED SYSTEM
 
 The proposed system consists of an agentic AI backend and a role-based academic web portal.
-
-### 4.1 Agentic AI Backend
+4.1 Agentic AI Backend
 
 The backend uses a coordinator agent to interpret requests and generate structured plans. Specialized agents and typed tools perform the required subtasks.
 
@@ -82,7 +73,7 @@ The system incorporates:
 - Evidence grounding and validation.
 - Targeted repair and controlled escalation.
 
-### 4.2 Role-Based Academic Portal
+4.2 Role-Based Academic Portal
 
 The web portal provides separate functionalities for three primary user roles.
 
@@ -93,7 +84,7 @@ The web portal provides separate functionalities for three primary user roles.
 - View approved grades.
 - Monitor academic progress.
 
-**Faculty:**
+Faculty:
 - Create courses and assignments.
 - Upload and manage course notes.
 - View student submissions.
@@ -101,18 +92,18 @@ The web portal provides separate functionalities for three primary user roles.
 - Review similarity-related flags.
 - Approve and publish grades.
 
-**Head of Department (HoD):**
+Head of Department (HoD):
 - View department-level academic summaries.
 - Monitor submission counts and late submissions.
 - Review similarity-related flags.
 - Access audit information.
 - Approve eligible draft grades.
 
-## 5. HUMAN APPROVAL AND GOVERNANCE
+5. HUMAN APPROVAL AND GOVERNANCE
 
 An important design principle of the project is:
 
-**"Agents draft and flag, and a named human approves."**
+"Agents draft and flag, and a named human approves."
 
 The system uses AI assistance for preparing drafts, identifying potential issues, and coordinating workflows. However, important academic decisions remain under human control.
 
@@ -120,7 +111,7 @@ For example, an automatically generated grade remains a draft until an authorize
 
 Governance mechanisms such as execution budgets, approval gates, checkpoints, validation, and audit records help make the system controlled and accountable.
 
-## 6. SCOPE OF THE PROJECT
+6. SCOPE OF THE PROJECT
 
 The project covers the following areas:
 
@@ -142,7 +133,7 @@ The project covers the following areas:
 
 The application also supports optional integrations such as Google sign-in, Google Classroom import, email-based login codes, and an AI Course Assistant when the necessary external configuration is available.
 
-## 7. EXPECTED OUTCOMES
+7. EXPECTED OUTCOMES
 
 The expected outcome is a working academic management application that combines agentic AI capabilities with practical course-management functionalities.
 
@@ -158,7 +149,7 @@ The system is expected to:
 - Ensure role-based access and auditability.
 - Support repeatable testing and local execution.
 
-## 8. CONCLUSION
+8. CONCLUSION
 
 The proposed Agentic AI-Based Course Project, Notes and Assignment Organizer aims to improve academic workflow management through the integration of agentic AI, specialized tools, multi-agent orchestration, and a role-based web portal.
 
